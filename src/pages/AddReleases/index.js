@@ -2,10 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, View } from 'react-native';
 import { styles } from '../../style/styles';
 
-export default function Home() { 
+export default function AddReleases() {
     return (
         <View style={styles.container}>
-        <Text>Home Controle de Secagem</Text>
+        <Text>Adicionar Lançamento</Text>
         <StatusBar style="auto" />
         </View>
     )

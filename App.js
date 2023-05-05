@@ -1,9 +1,11 @@
-import Home from "./src/pages/Home";
+import { Routes } from "./src/router";
 
 
 export default function App() {
   return (
-    <Home />
+    <>
+    <Routes />
+    </>
   );
 }
 
