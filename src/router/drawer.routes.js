@@ -1,6 +1,8 @@
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Home from '../pages/Home';
 import AddReleases from '../pages/AddReleases';
+import AddCollaborator from '../pages/AddCollaborator';
+import Finalization from '../pages/Finalization';
 
 
 
@@ -27,6 +29,20 @@ export function DrawerRoutes(){
                     title: 'Efetuar Lançamento'
                 }}
                 component={AddReleases}
+            />
+            <Screen 
+                name='AddCollaborator'
+                options={{
+                    title: 'Cadastrar Funcionário'
+                }}
+                component={AddCollaborator}
+            />
+            <Screen 
+                name='Finalization'
+                options={{
+                    title: 'Finalizar Semana'
+                }}
+                component={Finalization}
             />
         </Navigator>
     )
