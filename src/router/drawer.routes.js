@@ -24,7 +24,7 @@ export function DrawerRoutes(){
                 component={Home}
             />
             <Screen 
-                name='AddReleses'
+                name='AddReleases'
                 options={{
                     title: 'Efetuar Lançamento'
                 }}
