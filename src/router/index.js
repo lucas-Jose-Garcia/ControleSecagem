@@ -4,6 +4,7 @@ import {DrawerRoutes} from './drawer.routes';
 
 export function Routes() {
     return (
+        // Esse é o certo
         <NavigationContainer>
                 <DrawerRoutes />
         </NavigationContainer>
